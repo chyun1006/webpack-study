@@ -1,0 +1,18 @@
+{
+  "name": "08_devserve",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "dev": "webpack serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@webpack-cli/serve": "^1.5.2",
+    "webpack": "^4.46.0",
+    "webpack-dev-server": "^4.0.0"
+  }
+}

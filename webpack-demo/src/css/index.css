@@ -1,0 +1,23 @@
+/* @import './index.less'; */
+
+html{
+    height: 100%;
+}
+body{
+    margin: 0px;
+    background: blueviolet;
+}
+
+
+.grid-containter{
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px;
+    gap: 5px;
+
+}
+
+.grid-box{
+    /* height: 200px; */
+    background-color: deeppink;
+}
